@@ -14,16 +14,20 @@
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-size: 1.5rem;
-    font-family: var(--font-default);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: var(--font-default);
+}
+
+body {
+  background-color: var(--neutral-color3);
+  min-height: 100vh;
+  width: 100%;
 }
 
 a {
-  font-size: 11px;
-  text-align: center;
+  color: inherit;
   text-decoration: none;
-  color: #3e52a3;
 }
