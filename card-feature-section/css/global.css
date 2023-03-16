@@ -1,9 +1,13 @@
 @charset "utf-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 :root {
   font-size: 10px;
   --font-default: "Poppins", sans-serif;
+  --color-default: #fff;
+  --shadow: 0px 2px 5px #00000028;
+  --border: 3px solid;
   --primary-color1: #ea5353;
   --primary-color2: #45d3d3;
   --primary-color3: #fcaf4a;
@@ -11,6 +15,8 @@
   --neutral-color1: #4c4e61;
   --neutral-color2: #a3a5ae;
   --neutral-color3: #fafafa;
+  --color-footer: #377FD2;
+  --color-special-icon: #333;
 }
 
 * {
@@ -25,9 +31,22 @@ body {
   background-color: var(--neutral-color3);
   min-height: 100vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+@media (max-width: 1140px) {
+  .box.effect {
+    transform: translateY(0%);
+  }
+
+  footer {
+    width: 100%;
+  }
 }
