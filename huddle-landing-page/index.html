@@ -3,36 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="./images/favicon.png"
-    />
-    <title>
-      Frontend Mentor | Huddle landing page
-    </title>
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <title>Frontend Mentor | Huddle landing page</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/container.css" />
+    <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
-    Build The Community Your Fans Will Love Huddle re-imagines the way we build
-    communities. You have a voice, but so does your audience. Create connections
-    with your users as you engage in genuine discussion. Register
-
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p>
-    </footer>
+    <main class="container">
+      <div class="img-logo">
+        <img src="images/logo.svg" alt="Logo" />
+      </div>
+      <section class="slogan">
+        <div class="slogan-img">
+          <img
+            src="/huddle-landing-page/images/illustration.svg"
+            alt="Ilustração"
+          />
+        </div>
+        <div class="slogan-text">
+          <h2>Construa a Comunidade que os Seus Fãs Vão Adorar</h2>
+          <p>
+            O Huddle reinventa a forma como criamos comunidades. Você tem voz,
+            mas o seu público também. Crie conexões com usuários e entre em uma
+            discussão verdadeira.
+          </p>
+          <button>Registrar-se</button>
+        </div>
+      </section>
+    </main>
+    <ul class="social-links">
+      <li>
+        <i class="bi bi-facebook"></i>
+      </li>
+      <li>
+        <i class="bi bi-twitter"></i>
+      </li>
+      <li>
+        <i class="bi bi-instagram"></i>
+      </li>
+    </ul>
   </body>
 </html>
