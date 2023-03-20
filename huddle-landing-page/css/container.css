@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+.container {
+  max-width: 130rem;
+  padding: 7rem 6rem;
+  margin: 0 auto;
+}
+
+.slogan {
+  margin-top: 5%;
+  display: flex;
+  gap: 4.8rem;
+}
+
+.slogan-img {
+  max-width: 71rem;
+  height: auto;
+}
+
+.slogan-img img {
+  max-width: 100%;
+}
+
+.slogan-text {
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.slogan-text h2 {
+  color: #f5f5f5;
+  line-height: 1.5;
+  font-family: var(--font-for-headings);
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.slogan-text p {
+  color: #f5f5f5;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+button {
+  max-width: 100%;
+  width: 20rem;
+  border-radius: 2.4rem;
+  padding: 1.8rem;
+  border: none;
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  box-shadow: 0px 2px 5px #00000034;
+  transition: all ease-in-out 0.3s;
+}
+
+button:hover,
+.social-links i:hover {
+  background-color: var(--secondary-color);
+  color: #f5f5f5;
+}
+
+.social-links {
+  display: flex;
+  color: #f5f5f5;
+  gap: 2.4rem;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
+
+.social-links i {
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.8rem;
+  border: 1px solid #f5f5f5;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 0.3s;
+}
+
+.social-links i:hover {
+  background-color: var(--secondary-color);
+}
