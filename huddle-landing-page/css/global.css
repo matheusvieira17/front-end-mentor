@@ -5,10 +5,13 @@
 
 :root {
   font-size: 10px;
+  --light-color: #f5f5f5;
   --primary-color: #674baf;
   --secondary-color: #e882e8;
   --font-for-headings: "Poppins", sans-serif;
   --font-for-body: "Open Sans", sans-serif;
+  --shadow: 0px 2px 5px #00000034;
+  --transition: all ease-in-out 0.3s;
 }
 
 * {
