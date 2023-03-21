@@ -29,7 +29,7 @@
 }
 
 .slogan-text h2 {
-  color: #f5f5f5;
+  color: var(--light-color);
   line-height: 1.5;
   font-family: var(--font-for-headings);
   font-size: 3.2rem;
@@ -37,7 +37,7 @@
 }
 
 .slogan-text p {
-  color: #f5f5f5;
+  color: var(--light-color);
   font-size: 1.8rem;
   line-height: 1.5;
   letter-spacing: 0.3px;
