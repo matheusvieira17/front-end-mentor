@@ -1,19 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="icon" type="image/png" href="./images/favicon.png">
-  <title>Frontend Mentor | Advice generator app</title>
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <title>Frontend Mentor | Advice generator app</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/card-container.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
+    <main class="advice-card">
+      <section class="advice-container">
+        <p>Advice #<span data-advice="advice-number">0</span></p>
+        <h2>
+          "
+          <span data-advice-text="advice-txt"
+            >Clique no botão para gerar um conselho</span
+          >
+
+          "
+        </h2>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="images/pattern-divider-desktop.svg"
+          />
+          <img
+            src="images/pattern-divider-desktop.svg"
+            alt="Imagem divisória"
+          />
+        </picture>
+        <button data-generate="generateAdvice">
+          <img src="images/icon-dice.svg" alt="Botão para gerar conselhos" />
+        </button>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Projeto idealizado por
+        <a href="https://www.frontendmentor.io" target="_blank"
+          >Frontend Mentor</a
+        >.
+      </p>
+
+      <p>Desenvolvido por <a href="#">Matheus Vieira Ferreira</a>.</p>
+      <div class="social-links">
+        <i class="bi bi-linkedin"></i>
+        <i class="bi bi-github"></i>
+      </div>
+    </footer>
+  </body>
 </html>
