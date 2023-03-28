@@ -1,0 +1,32 @@
+@charset "utf-8";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+:root {
+  font-size: 10px;
+  --primary-color1: #cee3e9;
+  --primary-color2: #52ffa8;
+  --neutral-color1: #4e5d73;
+  --neutral-color2: #323a49;
+  --neutral-color3: #1f2632;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--neutral-color3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
