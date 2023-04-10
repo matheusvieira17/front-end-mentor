@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3.2rem;
+  background: url("/images/bg-hero-desktop.svg");
+  background-color: var(--neutral-color1);
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header-text-info {
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3.2rem;
+}
+
+.header-text-info h1 {
+  font-size: 3.2rem;
+}
+
+.header-text-info p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.header-banner img {
+  max-width: 50rem;
+  width: 100%;
+  height: auto;
+}
