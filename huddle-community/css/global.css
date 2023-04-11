@@ -11,7 +11,7 @@
   --neutral-color1: #ebfbff;
   --neutral-color2: #808d99;
   --neutral-color3: #00252e;
-  --shadow: 3px 1px 5px #22222240;
+  --shadow: 2px 5px 30px 2px #11111130;
 }
 
 * {
@@ -35,6 +35,11 @@ h1, h2 {
   font-family: var(--font-headings);
 }
 
+::selection {
+  background-color: var(--neutral-color3);
+  color: var(--neutral-color1);
+}
+
 .btn {
   box-shadow: var(--shadow);
   background-color: var(--default-color);
@@ -46,5 +51,5 @@ h1, h2 {
 
 .btn.special {
   background-color: var(--primary-color);
-  color: #fff;
+  color: var(--default-color);
 }
