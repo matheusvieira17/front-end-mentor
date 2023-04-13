@@ -42,3 +42,27 @@
   text-align: center;
   gap: 1rem;
 }
+
+.reference {
+  margin-top: 10%;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.join-community {
+  padding: 2rem;
+  background-color: var(--default-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: var(--shadow);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1.2rem;
+}
